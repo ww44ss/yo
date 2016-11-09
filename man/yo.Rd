@@ -2,7 +2,7 @@
 % Please edit documentation in R/yo.R
 \name{yo}
 \alias{yo}
-\title{terminate chains of piped commands}
+\title{terminate chains of piped commands.}
 \usage{
 yo(x)
 }
@@ -13,7 +13,7 @@ yo(x)
 x - unchanged
 }
 \description{
-terminate chains of piped commands
+terminate chains of piped commands.
 }
 \examples{
 library(dplyr)

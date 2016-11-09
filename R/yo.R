@@ -1,7 +1,7 @@
 
 
 
-#' terminate chains of piped commands
+#' terminate chains of piped commands.
 #'
 #' @param x - an argument
 #' @return x - unchanged
@@ -31,11 +31,8 @@
 yo <- function(x) x
 
 
-#' doh
-#' A function useful in terminating long chains of piped commands;
-#'  it simplifies debugging by enabling programmer to simply "comment out" lines.
-#'  doh is intended to be used with the dplyr package, but does not depend on it.
-#'  doh is pronounced as by Homer Simpson
+#' useful in terminating long chains of piped commands.
+#'  'doh' is pronounced as by Homer Simpson
 #'
 #' @param x - an argument
 #' @return x - unchanged
@@ -60,11 +57,8 @@ yo <- function(x) x
 #' @export
 doh <- function(x) x
 
-#' ruhroh
-#' A function useful in terminating long chains of piped commands;
-#'  it simplifies debugging by enabling programmer to simply "comment out" lines.
-#'  ruhroh is intended to be used with the dplyr package, but does not depend on it.
-#'  ruhroh is pronounced as by Scooby-Doo
+#' useful in terminating long chains of piped commands.
+#'  'ruhroh" is pronounced as by Scooby-Doo
 #'
 #' @param x - an argument
 #' @return x - unchanged

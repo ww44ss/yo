@@ -2,11 +2,8 @@
 % Please edit documentation in R/yo.R
 \name{doh}
 \alias{doh}
-\title{doh
-A function useful in terminating long chains of piped commands;
- it simplifies debugging by enabling programmer to simply "comment out" lines.
- doh is intended to be used with the dplyr package, but does not depend on it.
- doh is pronounced as by Homer Simpson}
+\title{useful in terminating long chains of piped commands.
+ 'doh' is pronounced as by Homer Simpson}
 \usage{
 doh(x)
 }
@@ -17,11 +14,8 @@ doh(x)
 x - unchanged
 }
 \description{
-doh
-A function useful in terminating long chains of piped commands;
- it simplifies debugging by enabling programmer to simply "comment out" lines.
- doh is intended to be used with the dplyr package, but does not depend on it.
- doh is pronounced as by Homer Simpson
+useful in terminating long chains of piped commands.
+ 'doh' is pronounced as by Homer Simpson
 }
 \examples{
 library(dplyr)

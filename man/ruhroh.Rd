@@ -2,11 +2,8 @@
 % Please edit documentation in R/yo.R
 \name{ruhroh}
 \alias{ruhroh}
-\title{ruhroh
-A function useful in terminating long chains of piped commands;
- it simplifies debugging by enabling programmer to simply "comment out" lines.
- ruhroh is intended to be used with the dplyr package, but does not depend on it.
- ruhroh is pronounced as by Scooby-Doo}
+\title{useful in terminating long chains of piped commands.
+ 'ruhroh" is pronounced as by Scooby-Doo}
 \usage{
 ruhroh(x)
 }
@@ -17,11 +14,8 @@ ruhroh(x)
 x - unchanged
 }
 \description{
-ruhroh
-A function useful in terminating long chains of piped commands;
- it simplifies debugging by enabling programmer to simply "comment out" lines.
- ruhroh is intended to be used with the dplyr package, but does not depend on it.
- ruhroh is pronounced as by Scooby-Doo
+useful in terminating long chains of piped commands.
+ 'ruhroh" is pronounced as by Scooby-Doo
 }
 \examples{
 library(dplyr)
