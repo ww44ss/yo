@@ -1,7 +1,7 @@
 
 
-#' yo
-#' terminatw chains of piped commands;
+
+#' terminate chains of piped commands
 #'
 #' @param x - an argument
 #' @return x - unchanged
