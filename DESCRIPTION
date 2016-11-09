@@ -9,7 +9,7 @@ Description: This package defines an identity utility function ‘yo <- function
 Depends: R (>= 3.0.2)
 Imports: dplyr (>= 0.3.0.1)
 License: MIT + file LICENSE 
-LazyData: TRUE
+LazyData: FALSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1.9000
