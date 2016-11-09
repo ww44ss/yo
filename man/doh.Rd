@@ -2,8 +2,7 @@
 % Please edit documentation in R/yo.R
 \name{doh}
 \alias{doh}
-\title{useful in terminating long chains of piped commands.
- 'doh' is pronounced as by Homer Simpson}
+\title{terminate chains of piped commands}
 \usage{
 doh(x)
 }
@@ -14,8 +13,10 @@ doh(x)
 x - unchanged
 }
 \description{
-useful in terminating long chains of piped commands.
- 'doh' is pronounced as by Homer Simpson
+doh is useful in terminating long chains of piped commands. It simplifies the debugging
+of these long chains by allowing the programmer to comment-out lines of code.
+'doh' is pronounced as by the TV-character Homer Simpson.
+See also: yo and ruhroh
 }
 \examples{
 library(dplyr)

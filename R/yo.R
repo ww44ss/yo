@@ -1,7 +1,12 @@
 
 
 
-#' terminate chains of piped commands.
+#' terminate chains of piped commands
+#'
+#' yo is useful in terminating long chains of piped commands. It simplifies the debugging
+#' of these long chains by allowing the programmer to comment-out lines of code.
+#' 'yo' is pronounced as by the TV-character Jesse Pinkman (Aaron Paul in "Breaking Bad").
+#' see also: doh and ruhroh
 #'
 #' @param x - an argument
 #' @return x - unchanged
@@ -31,8 +36,12 @@
 yo <- function(x) x
 
 
-#' useful in terminating long chains of piped commands.
-#'  'doh' is pronounced as by Homer Simpson
+#' terminate chains of piped commands
+#'
+#' doh is useful in terminating long chains of piped commands. It simplifies the debugging
+#' of these long chains by allowing the programmer to comment-out lines of code.
+#' 'doh' is pronounced as by the TV-character Homer Simpson.
+#' See also: yo and ruhroh
 #'
 #' @param x - an argument
 #' @return x - unchanged
@@ -57,8 +66,12 @@ yo <- function(x) x
 #' @export
 doh <- function(x) x
 
-#' useful in terminating long chains of piped commands.
-#'  'ruhroh" is pronounced as by Scooby-Doo
+#' terminate chains of piped commands
+#'
+#' ruhroh is useful in terminating long chains of piped commands. It simplifies the debugging
+#' of these long chains by allowing the programmer to comment-out lines of code.
+#' 'ruhroh' is pronounced as by the TV-character Scooby-Doo.
+#' See also: yo, ruhroh
 #'
 #' @param x - an argument
 #' @return x - unchanged

@@ -2,8 +2,7 @@
 % Please edit documentation in R/yo.R
 \name{ruhroh}
 \alias{ruhroh}
-\title{useful in terminating long chains of piped commands.
- 'ruhroh" is pronounced as by Scooby-Doo}
+\title{terminate chains of piped commands}
 \usage{
 ruhroh(x)
 }
@@ -14,8 +13,10 @@ ruhroh(x)
 x - unchanged
 }
 \description{
-useful in terminating long chains of piped commands.
- 'ruhroh" is pronounced as by Scooby-Doo
+ruhroh is useful in terminating long chains of piped commands. It simplifies the debugging
+of these long chains by allowing the programmer to comment-out lines of code.
+'ruhroh' is pronounced as by the TV-character Scooby-Doo.
+See also: yo, ruhroh
 }
 \examples{
 library(dplyr)

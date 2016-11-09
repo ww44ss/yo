@@ -2,7 +2,7 @@
 % Please edit documentation in R/yo.R
 \name{yo}
 \alias{yo}
-\title{terminate chains of piped commands.}
+\title{terminate chains of piped commands}
 \usage{
 yo(x)
 }
@@ -13,7 +13,10 @@ yo(x)
 x - unchanged
 }
 \description{
-terminate chains of piped commands.
+yo is useful in terminating long chains of piped commands. It simplifies the debugging
+of these long chains by allowing the programmer to comment-out lines of code.
+'yo' is pronounced as by the TV-character Jesse Pinkman (Aaron Paul in "Breaking Bad").
+see also: doh and ruhroh
 }
 \examples{
 library(dplyr)
