@@ -3,10 +3,7 @@
 \name{yo}
 \alias{yo}
 \title{yo
-A function useful in terminating long chains of piped commands;
- it simplifies debugging by enabling programmer to simply "comment out" lines.
- yo is intended to be used with the dplyr package, but does not depend on it.
- yo is pronounced as by Aaron Paul's character, Jesse Pinkman, in "Breaking Bad"}
+terminatw chains of piped commands;}
 \usage{
 yo(x)
 }
@@ -18,10 +15,7 @@ x - unchanged
 }
 \description{
 yo
-A function useful in terminating long chains of piped commands;
- it simplifies debugging by enabling programmer to simply "comment out" lines.
- yo is intended to be used with the dplyr package, but does not depend on it.
- yo is pronounced as by Aaron Paul's character, Jesse Pinkman, in "Breaking Bad"
+terminatw chains of piped commands;
 }
 \examples{
 library(dplyr)
